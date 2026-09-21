@@ -32,5 +32,5 @@ jobs:
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
-        name: test-tekshiruvv-release
+        name: test-tekshiruv-release
         path: build/app/outputs/flutter-apk/app-release.apk
