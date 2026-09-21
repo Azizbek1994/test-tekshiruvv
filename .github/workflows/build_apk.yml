@@ -36,5 +36,5 @@ jobs:
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
-        name: test-tekshiruvv-release
+        name: test-tekshiruv-release
         path: test_tekshiruvv/build/app/outputs/flutter-apk/app-release.apk # <-- Bu yerga ham papka nomini yozing
