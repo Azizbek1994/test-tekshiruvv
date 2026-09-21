@@ -8,6 +8,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    defaults:
+      run:
+        working-directory: ./test-tekshiruvv # <-- Papka nomini kiriting (masalan: ./test_tekshiruv)
+
     steps:
     - uses: actions/checkout@v4
 
@@ -33,4 +37,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: test-tekshiruv-release
-        path: build/app/outputs/flutter-apk/app-release.apk
+        path: SINOV_PAPKA_NOMI/build/app/outputs/flutter-apk/app-release.apk # <-- Bu yerga ham papka nomini yozing
