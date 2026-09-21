@@ -10,7 +10,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./test-tekshiruvv # <-- Papka nomini kiriting (masalan: ./test_tekshiruv)
+        working-directory: ./test_tekshiruvv # <-- Papka nomini kiriting (masalan: ./test_tekshiruv)
 
     steps:
     - uses: actions/checkout@v4
@@ -36,5 +36,5 @@ jobs:
     - name: Upload APK
       uses: actions/upload-artifact@v4
       with:
-        name: test-tekshiruv-release
-        path: SINOV_PAPKA_NOMI/build/app/outputs/flutter-apk/app-release.apk # <-- Bu yerga ham papka nomini yozing
+        name: test-tekshiruvv-release
+        path: test_tekshiruvv/build/app/outputs/flutter-apk/app-release.apk # <-- Bu yerga ham papka nomini yozing
